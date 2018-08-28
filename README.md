@@ -1,5 +1,5 @@
 # scroll-to-element-demo
-This repo demonstrates how to build a highly flexible and reusable scrollToTop component in React
+This repo demonstrates how to build a highly flexible and reusable ScrollToElement component in React
 
 ## Intro
 *Note: The code in this example does not produce a working example. It was recently extracted from another repo, and I haven’t had a chance to get it wired up correctly.*
