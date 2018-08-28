@@ -29,4 +29,4 @@ Since it’s not currently functional, I will identify the individual files belo
 * ReactApp/components/AdditionalQuestions.jsx
   * This component provides and example of usage. In it `<ScrollToElement>` is imported, and used twice. A unique id is given to each instance, and custom props are set. The two are completely independent.
 * ReactApp/helpers/domHelpers.jsx
-  * This file contains the helpers for checking for presence of a DOM and getting the viewport width. These functions aren't specific to the scrollable component, so they were broke into a seperate file for clarity.
+  * This file contains the helpers for checking DOM presence and getting the viewport width. These functions aren't specific to the scrollable component, so they were broke out into a seperate file for clarity.
