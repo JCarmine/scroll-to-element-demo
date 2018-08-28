@@ -19,11 +19,11 @@ Since it’s not currently functional, I will identify the individual files belo
 
 * ReactApp/components/ScrollToElement.jsx
   * This is the main component, `<ScrollToElement>`. It imports [react-scroll](https://github.com/fisshy/react-scroll), and uses its core functionality to build the component. It contains these features:
-    * It accepts up to 9 props to determine the behavior for each instance.
+    * It accepts up to 9 props to set behavior.
     * Multiple instances of the component can be present on a page at the same time. Including a unique id prop isolates the instances from one another.
-    * Specifics such as offset, delay, duration, and the maximum viewport that a scroll can occur on can all be set.
+    * Specifics such as offset, delay, duration, and the maximum viewport that a scroll can occur on, can all be set.
     * It utilizes several lifecycle methods since we will want the component to scroll at different times.
-    * It has the ability, through the use of a helper, to detect whether the dom is present. The React apps on Gazelle.com can be isomorphic if desired through using the react_on_rails gem (yep, rails backend). So, it's important to check for the presence of a dom before trying to check viewport width, etc.
+    * It has the ability, through the use of a helper, to detect whether the DOM is present. The React apps on Gazelle.com can be isomorphic if desired through the use of the react_on_rails gem (yep, rails backend). So, it's important to check for the presence of a DOM before trying to check viewport width, etc.
     * It establishes the propTypes for the component, and sets defaultProps for when none are provided.
     * Each instance is populated using `this.props.children`.
 * ReactApp/components/AdditionalQuestions.jsx
